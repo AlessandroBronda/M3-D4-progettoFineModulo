@@ -1,0 +1,51 @@
+Esempio 1 di come deve essere popolata la pagina tramite JS
+
+            <div class="row">
+					<div id="titles" class="col text-light fw-bol fs-5 mt-4">Trending Now</div>
+			</div>
+
+			<div class="row">
+					<div class="col-12 d-flex align-items-start">
+						<div><img src="./ImgSerie/1.png" alt=""></div>
+						<div><img src="./ImgSerie/2.png" alt=""></div>
+						<div><img src="./ImgSerie/3.png" alt=""></div>
+						<div><img src="./ImgSerie/4.png" alt=""></div>
+						<div><img src="./ImgSerie/5.png" alt=""></div>
+						<div><img src="./ImgSerie/6	.png" alt=""></div>
+						<div><img src="./ImgSerie/7	.png" alt=""></div>
+					</div>
+			</div>
+
+In questo modo Inserisco tutto in un unico container, dovrò fare in modo che il TextHere contenga le diverse categorie, forse dovrò creare un altro array con dentro dei selettori.
+
+				<div class="row">
+					<div class="col-12 mt-4">
+						<div class="fs-3 text-white">TextHere</div>
+						<div class="d-flex align-items-start">
+							<div><img src="./ImgSerie/1.png" alt="" /></div>
+							<div><img src="./ImgSerie/2.png" alt="" /></div>
+						</div>
+					</div>
+				</div>
+
+
+Questo è la row che dovrà essere creata in JS
+
+
+				<div class="row">
+					<div class="col-12 mt-4">
+						<div class="fs-3 text-white">TextHere</div>
+						<div id="imageSlider" class="image-slider">
+							<div><img src="./ImgSerie/1.png" alt="" /></div>
+							<div><img src="./ImgSerie/2.png" alt="" /></div>
+							<div><img src="./ImgSerie/3.png" alt="" /></div>
+							<div><img src="./ImgSerie/4.png" alt="" /></div>
+							<div><img src="./ImgSerie/5.png" alt="" /></div>
+							<div><img src="./ImgSerie/6.png" alt="" /></div>
+							<div><img src="./ImgSerie/7.png" alt="" /></div>
+							<div><img src="./ImgSerie/8.png" alt="" /></div>
+							<div><img src="./ImgSerie/9.png" alt="" /></div>
+							<div><img src="./ImgSerie/12.png" alt="" /></div>
+						</div>
+					</div>
+				</div>

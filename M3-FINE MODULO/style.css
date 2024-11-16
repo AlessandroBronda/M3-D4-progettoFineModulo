@@ -1,0 +1,123 @@
+body {
+	margin: 0px;
+	background-color: black;
+	width: 100%;
+	height: 100vb;
+}
+
+.navbar {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+.navbar-brand img {
+	height: auto;
+	max-height: 50px;
+	width: auto;
+}
+
+main {
+	margin-left: 10px;
+}
+
+.dropdown-menu {
+	background-color: rgba(255, 255, 255, 0.8);
+	backdrop-filter: blur(5px);
+	border: none;
+}
+
+.btn-secondary {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+}
+
+.dropdown-item:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+#buttonlist {
+	transition: 0.5s ease all;
+}
+
+#buttonlist:hover {
+	cursor: pointer;
+	background-color: white;
+	fill: black;
+	transition: 0.5s ease;
+}
+
+#buttonlist:hover svg {
+	fill: black;
+	transition: 0.5s ease;
+}
+
+#buttonlist1 {
+	transition: 0.5s ease all;
+}
+
+#buttonlist1:hover {
+	cursor: pointer;
+	background-color: white;
+	fill: black;
+	transition: 0.5s ease;
+}
+
+#buttonlist1:hover svg {
+	fill: black;
+	transition: 0.5s ease;
+}
+
+
+
+.image-slider {
+	display: flex;
+	overflow-x: auto;
+	gap: 5px;
+	padding: 10px;
+}
+
+.image-slider div img {
+	width: 300px;
+	height: auto;
+	transition: 0.3s ease all;
+	-webkit-user-drag: none;
+}
+
+@media (max-width: 600px) {
+	.image-slider div img {
+		width: 200px; 
+	}
+}
+
+@media (max-width: 300px) {
+	.image-slider div img {
+		width: 80px; 
+	}
+}
+
+.image-slider img:hover {
+	width: 400px;
+	opacity: 0.3;
+	transition: 0.3;
+}
+
+.image-slider::-webkit-scrollbar {
+	display: none;
+}
+
+
+footer{
+	background-color: black;
+	width: 100%;
+	height: 300px;
+	position: sticky;
+	bottom: 0;
+}
+
+@media (max-width: 100px) {
+	footer {
+		height: 100px !important;
+	}
+}
